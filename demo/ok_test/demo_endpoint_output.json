@@ -1,0 +1,30 @@
+{'submit': False, 
+'assignment': 'https://okpy.org/path/to/endpoint', 
+'messages': 
+	{'grading': 
+		{'Question 2': 
+			{'failed': 1, 
+			'passed': 1, 
+		'locked': 0}}, 
+		'refazer': {}, //for extra data if neccesary
+		'file_contents': 
+		{'hw1.py': 
+		'"""Demo assignment with separate test files."""\n\ndef square(x):\n    """Return x squared."""\n    return x * x\n\ndef double(x):\n    """Return x doubled."""\n    return x # Incorrect\n\n'}, 
+		'analytics': 
+		{'question': 
+			['q2'], 
+			'history': 
+			{'all_attempts': 26, 
+				'question': ['q2'], 
+				'questions': 
+			{'q2': 
+				{'attempts': 12, 
+				'solved': False}, 
+				'q1': {'attempts': 14, 
+				'solved': False}}}, 
+				'time': '2016-12-02 10:36:55.173547', 
+				'unlock': False, 
+				'identifier': '0f1b1c9f8b8dbc1cc3f0a77fcddfda97'
+		}
+	}
+}

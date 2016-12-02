@@ -53,7 +53,7 @@ class RefazerProtocol(models.Protocol):
         messages['analytics']['identifier'] = auth.get_identifier()
         # Send data to refazer
 
-        response_url = self.send_messages(messages, self.SHORT_TIMEOUT) #TODO: web api must return url
+        response_url = self.send_messages(messages, self.SHORT_TIMEOUT) #TODO: web api must return url for python tutor
 
         #TODO: error handling
         # Parse response_url
